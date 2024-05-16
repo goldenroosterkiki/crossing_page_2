@@ -19,11 +19,11 @@ import { ref } from 'vue';
 // Placeholder data for the cards
 const cards = ref([
   { type: 'image-card', image1: new URL('../assets/balanza.png', import.meta.url).href, image2: new URL('../assets/monedas.png', import.meta.url).href },
-  { type: 'text-card', title: 'Specialization Domains', text: 'En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo.' },
-  { type: 'text-card', title: 'For Enterprise', text: 'En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo' },
+  { type: 'text-card', title: 'Specialization Domains', text: 'We are working on providing support for all major areas of Mexican law, including legislative monitoring and fiscal analysis. We aim to expand to other jurisdictions soon.' },
+  { type: 'text-card', title: 'For Enterprise', text: 'Ideal for optimizing and accelerating legal and tax operations in startups and corporations, including both local and foreign enterprises.' },
   { type: 'image-card', image1: new URL('../assets/cohete.png', import.meta.url).href, image2: new URL('../assets/edificio.png', import.meta.url).href },
   { type: 'image-card', image1: new URL('../assets/mac.png', import.meta.url).href, image2: new URL('../assets/cloud.png', import.meta.url).href },
-  { type: 'text-card', title: 'Store it Locally!', text: 'En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo' },
+  { type: 'text-card', title: 'Store it Locally!', text: 'We do not keep any information. Your data can be safely stored in your own computing systems.' },
 ]);
 </script>
 

@@ -17,8 +17,8 @@
   // Placeholder data for the cards
   const cards = ref([
     { id: 1, text: '1. We reason and breakdown the user request', image: new URL('../assets/reason.svg', import.meta.url).href },
-    { id: 2, text: '2. We teach agents to navigate custom data maps', image: new URL('../assets/navigation.svg', import.meta.url).href },
-    { id: 3, text: '3. We Select the best pieces of information for your task', image: new URL('../assets/docs.svg', import.meta.url).href },
+    { id: 2, text: '2. We teach agents to navigate through custom data maps', image: new URL('../assets/navigation.svg', import.meta.url).href },
+    { id: 3, text: '3. After navigation, we select the best pieces of information for your task', image: new URL('../assets/docs.svg', import.meta.url).href },
   ]);
   </script>
   
