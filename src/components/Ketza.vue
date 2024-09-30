@@ -3,7 +3,7 @@
     <div class="product-card">
       <h2>Ketza AI</h2>
       <p>
-        Ahora tranformamos miles de datos en instantaneos reportes detallados y accionables gracias a nuestro propio producto de Inteligencia Artificial.
+        Ahora tranformamos miles de datos en instantáneos reportes detallados y accionables gracias a nuestro propio producto de Inteligencia Artificial.
       </p>
       <div class="features">
         <div class="feature-card">
