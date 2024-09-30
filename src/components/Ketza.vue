@@ -12,7 +12,7 @@
         </div>
         <div class="feature-card">
           <div class="icon">🚀</div>
-          <h3>Analisis en Minutos</h3>
+          <h3>Análisis en Minutos</h3>
         </div>
         <div class="feature-card">
           <div class="icon">💡</div>
