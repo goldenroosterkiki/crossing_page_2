@@ -14,7 +14,7 @@ import HeaderContent from './HeaderContent.vue';
 .header-container {
   display: flex;
   flex-direction: column;
-  background-image: url('../assets/background.svg');
+  background-image: url('../assets/background.jpg');
   background-size: cover; /* Adjust based on your preference */
   background-repeat: no-repeat; /* Adjust based on your preference */
   background-position: center; /* Adjust based on your preference */

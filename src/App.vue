@@ -1,10 +1,7 @@
 <template>
   <div id="app">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;1,300&display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500&display=swap">
     <LandingPage />
   </div>
 </template>
@@ -15,8 +12,8 @@ import LandingPage from './components/LandingPage.vue';
 
 <style>
   body {
-    background-color: black;
+    background-color: #E4DDD3;
     margin: 0;
-    font-family: 'IBM Plex Sans', Arial, sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
   }
 </style>

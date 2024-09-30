@@ -1,20 +1,24 @@
 <template>
   <main>
-    <!-- Placeholder content for BodyContent.vue -->
     <FunctionalityCards />
+    <IndustriesSection />
     <FeaturesCards />
+    <Ketza />
+    <Team />
     <ContactCard />
   </main>
 </template>
 
 <script setup>
 import FunctionalityCards from './FunctionalityCards.vue';
+import IndustriesSection from './Industries.vue';
 import FeaturesCards from './FeaturesCards.vue';
+import Ketza from './Ketza.vue'; 
+import Team from './Team.vue'; 
 import ContactCard from './ContactCard.vue';
 </script>
 
 <style scoped>
-/* Add any styles for BodyContent.vue here */
 main {
   color: aliceblue;
   display: flex;

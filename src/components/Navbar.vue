@@ -14,10 +14,10 @@
         <div v-if="menuOpen || !isMobileView" class="menu-options">
           <!-- Placeholder for menu options -->
           <ul>
-            <li><a href="#">EN/ESP</a></li>
-            <li><a href="#functionality-cards">Features</a></li>
-            <li><a href="#contact-card">Contact</a></li>
-            <li><a href="#contact-card">Get Started</a></li>
+            <li><a href="https://crossing.ngrok.app/" target="_blank">Acceso Usuarios</a></li>
+            <li><a href="#features-cards">Servicios</a></li>
+            <li><a href="#team-section">Equipo</a></li>
+            <li><a href="#contact-card">Contacto</a></li>
           </ul>
         </div>
       </transition>
@@ -28,7 +28,7 @@
   import { ref, onMounted, onUnmounted } from 'vue';
   
   // Import the logo from the assets folder
-  const logo = ref(new URL('../assets/iurexa_logo.svg', import.meta.url).href);
+  const logo = ref(new URL('../assets/logo_text.png', import.meta.url).href);
   const menuOpen = ref(false);
   const isMobileView = ref(window.innerWidth <= 768);
   
@@ -61,11 +61,11 @@
     padding: 2em;
     padding-left: 3.5em;
     padding-right: 3.5em;
-    color: aliceblue;
+    color: #9EB3B8;
     position: relative;
   }
   .logo img {
-    height: 3.2em;
+    height: 2.9em;
   }
   
   .burger {
@@ -78,7 +78,7 @@
   .line {
     width: 25px;
     height: 3px;
-    background-color: aliceblue;
+    background-color: #253743;
     transition: all 0.3s ease;
   }
   
@@ -95,7 +95,8 @@
   }
   
   .menu-options {
-    border: 1px solid aliceblue;
+    border: 1px solid #253743;
+    background-color: #143A54;
     border-radius: .8em;
     padding: 1em;
     display: flex;
@@ -127,8 +128,10 @@
   
   .menu-options a {
     text-decoration: none;
-    color: aliceblue;
+    color: #E4DDD3;
+    font-weight: 200;
     transition: all 0.3s ease;
+    font-family: 'Space Grotesk', sans-serif;
   }
   
   @media (max-width: 768px) {

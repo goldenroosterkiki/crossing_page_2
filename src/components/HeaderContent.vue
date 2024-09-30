@@ -1,12 +1,12 @@
 <template>
   <div class="header-content">
     <p class="title">
-      <span class="part1">Specialized Reasoning</span>, 
-      <span class="part2">at scale</span>.
+      <span class="part2">Government </span>
+      <span class="part1">on Demand</span>
     </p>
     <p class="subtitle">
-      Systems capable of solving problems and executing tasks in law, tax, and judicial matters
-      <span class="flip" ref="flipAnimation"></span>
+      Somos tu brújula en el panorama político, analizando las acciones y decisiones de los poderes públicos
+      <!---<span class="flip" ref="flipAnimation"></span>-->
     </p>
   </div>
 </template>
@@ -49,7 +49,7 @@ onMounted(() => {
   padding-left: 3.5em;
   height: 50vh;
   max-width: 80vh;
-  color: aliceblue;
+  color: #253743;
 }
 
 h1, h2 {
@@ -57,8 +57,8 @@ h1, h2 {
 }
 
 .subtitle {
-  font-size: 1.4em;
-  font-weight: 200;
+  font-size: 1.2em;
+  font-weight: 400;
 }
 
 .title {
@@ -68,10 +68,12 @@ h1, h2 {
 
 .part1 {
   font-weight: 400;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 .part2 {
   font-weight: 700;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 .flip {

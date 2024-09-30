@@ -1,6 +1,6 @@
 <template>
   <div class="ofrecemos">
-    <h2>Ofrecemos una visión integral de los asuntos públicos en los poderes:</h2>
+    <h2>Industrias en las que servimos</h2>
   </div>
   <div class="functionality-cards" id="functionality-cards">
     <div class="card" v-for="card in cards" :key="card.id">
@@ -15,39 +15,40 @@
 </template>
 
 <script setup>
-  import { ref } from 'vue';
+import { ref } from 'vue';
 
-  // Placeholder data for the cards
-  const cards = ref([
-    { id: 1, text: 'Legislativo', image: new URL('../assets/cabildeo.png', import.meta.url).href },
-    { id: 2, text: 'Ejecutivo', image: new URL('../assets/politicos.png', import.meta.url).href },
-    { id: 3, text: 'Judicial', image: new URL('../assets/monitoreo.png', import.meta.url).href },
-  ]);
+const cards = ref([
+  { id: 1, text: 'Tecnología', image: new URL('../assets/tecnologia.png', import.meta.url).href },
+  { id: 2, text: 'Alimentos', image: new URL('../assets/alimentos.png', import.meta.url).href },
+  { id: 3, text: 'Logística', image: new URL('../assets/logistica.png', import.meta.url).href },
+  { id: 4, text: 'Finanzas', image: new URL('../assets/finanzas.png', import.meta.url).href },
+  { id: 5, text: 'Agropecuario', image: new URL('../assets/maiz.png', import.meta.url).href },
+  { id: 6, text: 'Energia', image: new URL('../assets/energia.png', import.meta.url).href },
+]);
 </script>
 
-  
 <style scoped>
 .functionality-cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 0 20vh;
+  padding: 0 20px;
+  gap: 20px;
 }
 
 .card {
-  background: #D4D4D4;
+  flex: 0 0 calc(9% - 17px);
+  max-width: calc(9% - 17px);
+  min-width: 150px;
   border-radius: 10px;
-  border: 2px solid #253743;
   padding: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Centers content vertically */
+  justify-content: center;
   align-items: center;
-  width: 17%;
   text-align: center;
   color: #202020;
   transition: all 0.3s ease;
-  height: 180px; /* Fixed height for all cards */
 }
 
 .card:hover {
@@ -70,7 +71,7 @@
   font-family: 'Space Grotesk', sans-serif;
 }
 
-h2, h3 {
+h2 {
   font-family: 'Space Grotesk', sans-serif;
   color: #202020;
 }
@@ -83,37 +84,38 @@ h2, h3 {
 
 .actual-text {
   font-weight: 300;
-  font-size: 1.1em;
 }
 
 .card img {
   max-width: 100%;
-  max-height: 6.5em;
+  max-height: 4em;
   object-fit: contain;
 }
 
-/* Mobile Styles */
-@media (max-width: 768px) {
-  .functionality-cards {
-    padding: 0 3vh;
-    gap: 2vh; /* Reduced gap for tighter layout */
-  }
-
+@media (max-width: 1200px) {
   .card {
-    width: 90%; /* Reduced width for smaller cards */
-    padding: 10px; /* Less padding for compactness */
-    height: 150px; /* Decreased height */
+    flex: 0 0 calc(14% - 14px);
+    max-width: calc(14% - 14px);
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex: 0 0 calc(25% - 10px);
+    max-width: calc(25% - 10px);
+    min-width: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    flex: 0 0 calc(25% - 10px);
+    max-width: calc(25% - 10px);
+    min-width: 0;
   }
 
-  .actual-text {
-    font-size: 1em; /* Slightly smaller font size */
-  }
-
-  .card img {
-    max-height: 4em; /* Smaller image size */
+  .functionality-cards {
+    padding: 0 10px;
   }
 }
 </style>
-
-  
-  
