@@ -23,7 +23,7 @@ const cards = ref([
   { id: 3, text: 'Logística', image: new URL('../assets/logistica.png', import.meta.url).href },
   { id: 4, text: 'Finanzas', image: new URL('../assets/finanzas.png', import.meta.url).href },
   { id: 5, text: 'Agropecuario', image: new URL('../assets/maiz.png', import.meta.url).href },
-  { id: 6, text: 'Energia', image: new URL('../assets/energia.png', import.meta.url).href },
+  { id: 6, text: 'Energía', image: new URL('../assets/energia.png', import.meta.url).href },
 ]);
 </script>
 
