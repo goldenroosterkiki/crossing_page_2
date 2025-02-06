@@ -3,7 +3,7 @@
     <div class="footer-content">
       <div class="footer-left">
         <img :src="logo" alt="Logo" class="footer-logo" />
-        <p class="copyright">Copyright © 2024 Crossing y Asuntos Públicos.</p>
+        <p class="copyright">Copyright © 2025 Crossing y Asuntos Públicos.</p>
       </div>
       <div class="footer-right">
         <ul>
