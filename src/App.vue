@@ -3,11 +3,13 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500&display=swap">
     <LandingPage />
+    <ChristmasModal />
   </div>
 </template>
 
 <script setup>
 import LandingPage from './components/LandingPage.vue';
+import ChristmasModal from './components/ChristmasModal.vue';
 </script>
 
 <style>
