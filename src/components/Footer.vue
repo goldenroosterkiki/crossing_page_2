@@ -3,7 +3,7 @@
     <div class="footer-content">
       <div class="footer-left">
         <img :src="logo" alt="Logo" class="footer-logo" />
-        <p class="copyright">Copyright © 2024 Crossing y Asuntos Públicos.</p>
+        <p class="copyright">Copyright © {{ currentYear }} Crossing y Asuntos Públicos.</p>
       </div>
       <div class="footer-right">
         <ul>
@@ -21,6 +21,9 @@ import { ref } from 'vue';
 
 // Import the logo from the assets folder
 const logo = ref(new URL('../assets/logo_bi.png', import.meta.url).href);
+
+// Auto-update current year
+const currentYear = new Date().getFullYear();
 </script>
 
 <style scoped>
